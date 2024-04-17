@@ -1,0 +1,96 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 0;
+}
+.headersobremim {
+    background-image: url(sobremim.jpg);
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 0;
+}
+
+.headerexperiencia{
+    background-image: url(fotosexperincia.avif);
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: top center;
+    z-index: 0;
+    height: 100px; /* Altura do cabeçalho (ajuste conforme necessário) */
+     width: 97%;
+}
+
+
+/* Estilos para a navegação */
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+p{
+
+    font-size:100% ;
+    text-align: center;
+}
+.imagem-topo-esquerda {
+    position: absolute; /* Define a posição absoluta */
+    top: 35px; /* Coloca a imagem no topo da página */
+    left: 35px ; /* Coloca a imagem na esquerda da página */
+    z-index: 1; /* Define a ordem de empilhamento (para que a imagem fique sobre o header)
+    width: 100px; /* Largura da imagem */
+    height: 100px;
+  } 
+h1{
+    color: white;
+    font-size: 250%;
+}
+.experiencia-profissional {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.experiencia-profissional ul {
+    padding-left: 20px; /* Adiciona um recuo aos pontos */
+}
+
+.experiencia-profissional ul li {
+    margin-bottom: 5px; /* Define o espaçamento entre os itens da lista */
+}
+.imagem-direita {
+    float: right; /* Flutua a imagem para a direita */
+    margin-left: 200px; /* Adiciona uma margem à esquerda para separar a imagem do texto */
+    position: absolute; /* Define a posição absoluta */
+    top: 200px; 
+    width: 400px; /* Define a largura da imagem */
+    height: auto;
+    margin-top: 189px;
+}
